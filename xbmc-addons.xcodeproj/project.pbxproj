@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		911124CD164DBA49001FF42F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		911124CF164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		911124D0164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		911124D1164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		911124D2164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		911124D3164DBAEC001FF42F /* fanart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fanart.jpg; sourceTree = "<group>"; };
+		911124D4164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		911124D5164DBAEC001FF42F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		911124D6164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		911124D8164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		911124DB164DBAEC001FF42F /* browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browse.png; sourceTree = "<group>"; };
+		911124DC164DBAEC001FF42F /* by_language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_language.png; sourceTree = "<group>"; };
+		911124DD164DBAEC001FF42F /* by_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_location.png; sourceTree = "<group>"; };
+		911124DE164DBAEC001FF42F /* downloads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloads.png; sourceTree = "<group>"; };
+		911124DF164DBAEC001FF42F /* local.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = local.png; sourceTree = "<group>"; };
+		911124E0164DBAEC001FF42F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		911124E1164DBAEC001FF42F /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		911124E2164DBAEC001FF42F /* podcast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podcast.png; sourceTree = "<group>"; };
+		911124E3164DBAEC001FF42F /* presets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presets.png; sourceTree = "<group>"; };
+		911124E4164DBAEC001FF42F /* recents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recents.png; sourceTree = "<group>"; };
+		911124E5164DBAEC001FF42F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		911124E6164DBAEC001FF42F /* sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports.png; sourceTree = "<group>"; };
+		911124E7164DBAEC001FF42F /* stream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stream.png; sourceTree = "<group>"; };
+		911124E8164DBAEC001FF42F /* talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk.png; sourceTree = "<group>"; };
+		911124EB164DBAEC001FF42F /* browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browse.png; sourceTree = "<group>"; };
+		911124EC164DBAEC001FF42F /* by_language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_language.png; sourceTree = "<group>"; };
+		911124ED164DBAEC001FF42F /* by_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_location.png; sourceTree = "<group>"; };
+		911124EE164DBAEC001FF42F /* downloads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloads.png; sourceTree = "<group>"; };
+		911124EF164DBAEC001FF42F /* local.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = local.png; sourceTree = "<group>"; };
+		911124F0164DBAEC001FF42F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		911124F1164DBAEC001FF42F /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		911124F2164DBAEC001FF42F /* podcast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podcast.png; sourceTree = "<group>"; };
+		911124F3164DBAEC001FF42F /* presets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presets.png; sourceTree = "<group>"; };
+		911124F4164DBAEC001FF42F /* recents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recents.png; sourceTree = "<group>"; };
+		911124F5164DBAEC001FF42F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		911124F6164DBAEC001FF42F /* sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports.png; sourceTree = "<group>"; };
+		911124F7164DBAEC001FF42F /* stream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stream.png; sourceTree = "<group>"; };
+		911124F8164DBAEC001FF42F /* talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk.png; sourceTree = "<group>"; };
+		911124FB164DBAEC001FF42F /* browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browse.png; sourceTree = "<group>"; };
+		911124FC164DBAEC001FF42F /* by_language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_language.png; sourceTree = "<group>"; };
+		911124FD164DBAEC001FF42F /* by_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_location.png; sourceTree = "<group>"; };
+		911124FE164DBAEC001FF42F /* downloads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloads.png; sourceTree = "<group>"; };
+		911124FF164DBAEC001FF42F /* local_radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = local_radio.png; sourceTree = "<group>"; };
+		91112500164DBAEC001FF42F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		91112501164DBAEC001FF42F /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		91112502164DBAEC001FF42F /* podcast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podcast.png; sourceTree = "<group>"; };
+		91112503164DBAEC001FF42F /* presets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presets.png; sourceTree = "<group>"; };
+		91112504164DBAEC001FF42F /* recents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recents.png; sourceTree = "<group>"; };
+		91112505164DBAEC001FF42F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		91112506164DBAEC001FF42F /* sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports.png; sourceTree = "<group>"; };
+		91112507164DBAEC001FF42F /* stream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stream.png; sourceTree = "<group>"; };
+		91112508164DBAEC001FF42F /* talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk.png; sourceTree = "<group>"; };
+		9111250B164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		9111250D164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		9111250F164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		91112511164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		91112513164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		91112515164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		91112516164DBAEC001FF42F /* astralradio.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = astralradio.py; sourceTree = "<group>"; };
+		91112517164DBAEC001FF42F /* cache.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cache.py; sourceTree = "<group>"; };
+		91112518164DBAEC001FF42F /* streamtheworld.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = streamtheworld.py; sourceTree = "<group>"; };
+		91112519164DBAEC001FF42F /* tunein.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tunein.py; sourceTree = "<group>"; };
+		9111251A164DBAEC001FF42F /* xbmcdownload.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcdownload.py; sourceTree = "<group>"; };
+		9111251B164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
+		9111251C164DBAEC001FF42F /* xbmcutils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcutils.py; sourceTree = "<group>"; };
+		9111251D164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		9111251F164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91112520164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		91112521164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		91112522164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		91112523164DBAEC001FF42F /* fanart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanart.png; sourceTree = "<group>"; };
+		91112524164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		91112525164DBAEC001FF42F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		91112526164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		91112528164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		9111252A164DBAEC001FF42F /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		9111252B164DBAEC001FF42F /* abc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc1.png; sourceTree = "<group>"; };
+		9111252C164DBAEC001FF42F /* abc1bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc1bg.png; sourceTree = "<group>"; };
+		9111252D164DBAEC001FF42F /* abc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc2.png; sourceTree = "<group>"; };
+		9111252E164DBAEC001FF42F /* abc24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc24.png; sourceTree = "<group>"; };
+		9111252F164DBAEC001FF42F /* abc24bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc24bg.png; sourceTree = "<group>"; };
+		91112530164DBAEC001FF42F /* abc2bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc2bg.png; sourceTree = "<group>"; };
+		91112531164DBAEC001FF42F /* abc3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc3.png; sourceTree = "<group>"; };
+		91112532164DBAEC001FF42F /* abc3bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc3bg.png; sourceTree = "<group>"; };
+		91112535164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		91112537164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		91112538164DBAEC001FF42F /* category.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = category.py; sourceTree = "<group>"; };
+		91112539164DBAEC001FF42F /* classes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = classes.py; sourceTree = "<group>"; };
+		9111253A164DBAEC001FF42F /* comm.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = comm.py; sourceTree = "<group>"; };
+		9111253B164DBAEC001FF42F /* config.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = config.py; sourceTree = "<group>"; };
+		9111253C164DBAEC001FF42F /* keyword.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = keyword.py; sourceTree = "<group>"; };
+		9111253D164DBAEC001FF42F /* parser.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parser.py; sourceTree = "<group>"; };
+		9111253E164DBAEC001FF42F /* play.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = play.py; sourceTree = "<group>"; };
+		9111253F164DBAEC001FF42F /* programs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = programs.py; sourceTree = "<group>"; };
+		91112540164DBAEC001FF42F /* series.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = series.py; sourceTree = "<group>"; };
+		91112541164DBAEC001FF42F /* utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = utils.py; sourceTree = "<group>"; };
+		91112542164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
+		91112543164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		91112545164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91112546164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		91112547164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		91112548164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		91112549164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9111254A164DBAEC001FF42F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9111254B164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9111254D164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		9111254E164DBAEC001FF42F /* __init__.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = __init__.pyc; sourceTree = "<group>"; };
+		91112550164DBAEC001FF42F /* eleven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eleven.png; sourceTree = "<group>"; };
+		91112551164DBAEC001FF42F /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		91112552164DBAEC001FF42F /* ten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ten.png; sourceTree = "<group>"; };
+		91112555164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		91112557164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		91112558164DBAEC001FF42F /* __init__.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = __init__.pyc; sourceTree = "<group>"; };
+		91112559164DBAEC001FF42F /* abcscrapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = abcscrapper.py; sourceTree = "<group>"; };
+		9111255A164DBAEC001FF42F /* abcscrapper.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = abcscrapper.pyc; sourceTree = "<group>"; };
+		9111255B164DBAEC001FF42F /* cache.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cache.py; sourceTree = "<group>"; };
+		9111255C164DBAEC001FF42F /* cache.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = cache.pyc; sourceTree = "<group>"; };
+		9111255D164DBAEC001FF42F /* ninescrapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ninescrapper.py; sourceTree = "<group>"; };
+		9111255E164DBAEC001FF42F /* ninescrapper.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ninescrapper.pyc; sourceTree = "<group>"; };
+		9111255F164DBAEC001FF42F /* tenscrapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tenscrapper.py; sourceTree = "<group>"; };
+		91112560164DBAEC001FF42F /* tenscrapper.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = tenscrapper.pyc; sourceTree = "<group>"; };
+		91112561164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
+		91112562164DBAEC001FF42F /* xbmcsettings.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = xbmcsettings.pyc; sourceTree = "<group>"; };
+		91112563164DBAEC001FF42F /* xbmcutils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcutils.py; sourceTree = "<group>"; };
+		91112564164DBAEC001FF42F /* xbmcutils.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = xbmcutils.pyc; sourceTree = "<group>"; };
+		91112565164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		91112567164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91112568164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		91112569164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		9111256A164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		9111256B164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9111256C164DBAEC001FF42F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9111256D164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9111256F164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		91112571164DBAEC001FF42F /* eleven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eleven.png; sourceTree = "<group>"; };
+		91112572164DBAEC001FF42F /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		91112573164DBAEC001FF42F /* ten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ten.png; sourceTree = "<group>"; };
+		91112576164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		91112578164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		91112579164DBAEC001FF42F /* cache.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cache.py; sourceTree = "<group>"; };
+		9111257A164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
+		9111257B164DBAEC001FF42F /* xbmcutils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcutils.py; sourceTree = "<group>"; };
+		9111257C164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		9111257E164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9111257F164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		91112580164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		91112581164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		91112582164DBAEC001FF42F /* fanart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanart.png; sourceTree = "<group>"; };
+		91112583164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		91112584164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		91112586164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		91112589164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		9111258B164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		9111258C164DBAEC001FF42F /* classes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = classes.py; sourceTree = "<group>"; };
+		9111258D164DBAEC001FF42F /* comm.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = comm.py; sourceTree = "<group>"; };
+		9111258E164DBAEC001FF42F /* config.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = config.py; sourceTree = "<group>"; };
+		9111258F164DBAEC001FF42F /* play.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = play.py; sourceTree = "<group>"; };
+		91112590164DBAEC001FF42F /* programs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = programs.py; sourceTree = "<group>"; };
+		91112591164DBAEC001FF42F /* series.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = series.py; sourceTree = "<group>"; };
+		91112592164DBAEC001FF42F /* utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = utils.py; sourceTree = "<group>"; };
+		91112593164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		91112595164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91112596164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		91112597164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		91112598164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		91112599164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9111259A164DBAEC001FF42F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9111259B164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9111259D164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		911125A0164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		911125A2164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		911125A3164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
+		911125A4164DBAEC001FF42F /* xbmcutils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcutils.py; sourceTree = "<group>"; };
+		911125A5164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		911125A7164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		911125A8164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
+		911125A9164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		911125AA164DBAEC001FF42F /* default.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = default.py; sourceTree = "<group>"; };
+		911125AB164DBAEC001FF42F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		911125AC164DBAEC001FF42F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		911125AD164DBAEC001FF42F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		911125AF164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		911125B2164DBAEC001FF42F /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		911125B4164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		911125B5164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
+		911125B6164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		911123CD164DB840001FF42F = {
+			isa = PBXGroup;
+			children = (
+				911124CD164DBA49001FF42F /* Makefile */,
+				911124CE164DBAEC001FF42F /* plugin.audio.tuneinradio */,
+				9111251E164DBAEC001FF42F /* plugin.video.abciview */,
+				91112544164DBAEC001FF42F /* plugin.video.catchupoz */,
+				91112566164DBAEC001FF42F /* plugin.video.networkten */,
+				9111257D164DBAEC001FF42F /* plugin.video.plus7 */,
+				91112594164DBAEC001FF42F /* script.openvpn */,
+				911125A6164DBAEC001FF42F /* script.similartracks */,
+			);
+			sourceTree = "<group>";
+		};
+		911124CE164DBAEC001FF42F /* plugin.audio.tuneinradio */ = {
+			isa = PBXGroup;
+			children = (
+				911124CF164DBAEC001FF42F /* .gitignore */,
+				911124D0164DBAEC001FF42F /* addon.xml */,
+				911124D1164DBAEC001FF42F /* changelog.txt */,
+				911124D2164DBAEC001FF42F /* default.py */,
+				911124D3164DBAEC001FF42F /* fanart.jpg */,
+				911124D4164DBAEC001FF42F /* icon.png */,
+				911124D5164DBAEC001FF42F /* LICENSE.txt */,
+				911124D6164DBAEC001FF42F /* README.md */,
+				911124D7164DBAEC001FF42F /* resources */,
+			);
+			path = plugin.audio.tuneinradio;
+			sourceTree = "<group>";
+		};
+		911124D7164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				911124D8164DBAEC001FF42F /* __init__.py */,
+				911124D9164DBAEC001FF42F /* images */,
+				91112509164DBAEC001FF42F /* language */,
+				91112514164DBAEC001FF42F /* lib */,
+				9111251D164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		911124D9164DBAEC001FF42F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				911124DA164DBAEC001FF42F /* black */,
+				911124E9164DBAEC001FF42F /* dark */,
+				911124EA164DBAEC001FF42F /* gray */,
+				911124F9164DBAEC001FF42F /* light */,
+				911124FA164DBAEC001FF42F /* red */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		911124DA164DBAEC001FF42F /* black */ = {
+			isa = PBXGroup;
+			children = (
+				911124DB164DBAEC001FF42F /* browse.png */,
+				911124DC164DBAEC001FF42F /* by_language.png */,
+				911124DD164DBAEC001FF42F /* by_location.png */,
+				911124DE164DBAEC001FF42F /* downloads.png */,
+				911124DF164DBAEC001FF42F /* local.png */,
+				911124E0164DBAEC001FF42F /* music.png */,
+				911124E1164DBAEC001FF42F /* news.png */,
+				911124E2164DBAEC001FF42F /* podcast.png */,
+				911124E3164DBAEC001FF42F /* presets.png */,
+				911124E4164DBAEC001FF42F /* recents.png */,
+				911124E5164DBAEC001FF42F /* search.png */,
+				911124E6164DBAEC001FF42F /* sports.png */,
+				911124E7164DBAEC001FF42F /* stream.png */,
+				911124E8164DBAEC001FF42F /* talk.png */,
+			);
+			path = black;
+			sourceTree = "<group>";
+		};
+		911124E9164DBAEC001FF42F /* dark */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dark;
+			sourceTree = "<group>";
+		};
+		911124EA164DBAEC001FF42F /* gray */ = {
+			isa = PBXGroup;
+			children = (
+				911124EB164DBAEC001FF42F /* browse.png */,
+				911124EC164DBAEC001FF42F /* by_language.png */,
+				911124ED164DBAEC001FF42F /* by_location.png */,
+				911124EE164DBAEC001FF42F /* downloads.png */,
+				911124EF164DBAEC001FF42F /* local.png */,
+				911124F0164DBAEC001FF42F /* music.png */,
+				911124F1164DBAEC001FF42F /* news.png */,
+				911124F2164DBAEC001FF42F /* podcast.png */,
+				911124F3164DBAEC001FF42F /* presets.png */,
+				911124F4164DBAEC001FF42F /* recents.png */,
+				911124F5164DBAEC001FF42F /* search.png */,
+				911124F6164DBAEC001FF42F /* sports.png */,
+				911124F7164DBAEC001FF42F /* stream.png */,
+				911124F8164DBAEC001FF42F /* talk.png */,
+			);
+			path = gray;
+			sourceTree = "<group>";
+		};
+		911124F9164DBAEC001FF42F /* light */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = light;
+			sourceTree = "<group>";
+		};
+		911124FA164DBAEC001FF42F /* red */ = {
+			isa = PBXGroup;
+			children = (
+				911124FB164DBAEC001FF42F /* browse.png */,
+				911124FC164DBAEC001FF42F /* by_language.png */,
+				911124FD164DBAEC001FF42F /* by_location.png */,
+				911124FE164DBAEC001FF42F /* downloads.png */,
+				911124FF164DBAEC001FF42F /* local_radio.png */,
+				91112500164DBAEC001FF42F /* music.png */,
+				91112501164DBAEC001FF42F /* news.png */,
+				91112502164DBAEC001FF42F /* podcast.png */,
+				91112503164DBAEC001FF42F /* presets.png */,
+				91112504164DBAEC001FF42F /* recents.png */,
+				91112505164DBAEC001FF42F /* search.png */,
+				91112506164DBAEC001FF42F /* sports.png */,
+				91112507164DBAEC001FF42F /* stream.png */,
+				91112508164DBAEC001FF42F /* talk.png */,
+			);
+			path = red;
+			sourceTree = "<group>";
+		};
+		91112509164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				9111250A164DBAEC001FF42F /* Bulgarian */,
+				9111250C164DBAEC001FF42F /* English */,
+				9111250E164DBAEC001FF42F /* French */,
+				91112510164DBAEC001FF42F /* Portuguese (Brazil) */,
+				91112512164DBAEC001FF42F /* Spanish */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		9111250A164DBAEC001FF42F /* Bulgarian */ = {
+			isa = PBXGroup;
+			children = (
+				9111250B164DBAEC001FF42F /* strings.xml */,
+			);
+			path = Bulgarian;
+			sourceTree = "<group>";
+		};
+		9111250C164DBAEC001FF42F /* English */ = {
+			isa = PBXGroup;
+			children = (
+				9111250D164DBAEC001FF42F /* strings.xml */,
+			);
+			path = English;
+			sourceTree = "<group>";
+		};
+		9111250E164DBAEC001FF42F /* French */ = {
+			isa = PBXGroup;
+			children = (
+				9111250F164DBAEC001FF42F /* strings.xml */,
+			);
+			path = French;
+			sourceTree = "<group>";
+		};
+		91112510164DBAEC001FF42F /* Portuguese (Brazil) */ = {
+			isa = PBXGroup;
+			children = (
+				91112511164DBAEC001FF42F /* strings.xml */,
+			);
+			path = "Portuguese (Brazil)";
+			sourceTree = "<group>";
+		};
+		91112512164DBAEC001FF42F /* Spanish */ = {
+			isa = PBXGroup;
+			children = (
+				91112513164DBAEC001FF42F /* strings.xml */,
+			);
+			path = Spanish;
+			sourceTree = "<group>";
+		};
+		91112514164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				91112515164DBAEC001FF42F /* __init__.py */,
+				91112516164DBAEC001FF42F /* astralradio.py */,
+				91112517164DBAEC001FF42F /* cache.py */,
+				91112518164DBAEC001FF42F /* streamtheworld.py */,
+				91112519164DBAEC001FF42F /* tunein.py */,
+				9111251A164DBAEC001FF42F /* xbmcdownload.py */,
+				9111251B164DBAEC001FF42F /* xbmcsettings.py */,
+				9111251C164DBAEC001FF42F /* xbmcutils.py */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9111251E164DBAEC001FF42F /* plugin.video.abciview */ = {
+			isa = PBXGroup;
+			children = (
+				9111251F164DBAEC001FF42F /* .gitignore */,
+				91112520164DBAEC001FF42F /* addon.xml */,
+				91112521164DBAEC001FF42F /* changelog.txt */,
+				91112522164DBAEC001FF42F /* default.py */,
+				91112523164DBAEC001FF42F /* fanart.png */,
+				91112524164DBAEC001FF42F /* icon.png */,
+				91112525164DBAEC001FF42F /* LICENSE.txt */,
+				91112526164DBAEC001FF42F /* README.md */,
+				91112527164DBAEC001FF42F /* resources */,
+			);
+			path = plugin.video.abciview;
+			sourceTree = "<group>";
+		};
+		91112527164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				91112528164DBAEC001FF42F /* __init__.py */,
+				91112529164DBAEC001FF42F /* images */,
+				91112533164DBAEC001FF42F /* language */,
+				91112536164DBAEC001FF42F /* lib */,
+				91112543164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		91112529164DBAEC001FF42F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9111252A164DBAEC001FF42F /* abc.png */,
+				9111252B164DBAEC001FF42F /* abc1.png */,
+				9111252C164DBAEC001FF42F /* abc1bg.png */,
+				9111252D164DBAEC001FF42F /* abc2.png */,
+				9111252E164DBAEC001FF42F /* abc24.png */,
+				9111252F164DBAEC001FF42F /* abc24bg.png */,
+				91112530164DBAEC001FF42F /* abc2bg.png */,
+				91112531164DBAEC001FF42F /* abc3.png */,
+				91112532164DBAEC001FF42F /* abc3bg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		91112533164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				91112534164DBAEC001FF42F /* English */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		91112534164DBAEC001FF42F /* English */ = {
+			isa = PBXGroup;
+			children = (
+				91112535164DBAEC001FF42F /* strings.xml */,
+			);
+			path = English;
+			sourceTree = "<group>";
+		};
+		91112536164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				91112537164DBAEC001FF42F /* __init__.py */,
+				91112538164DBAEC001FF42F /* category.py */,
+				91112539164DBAEC001FF42F /* classes.py */,
+				9111253A164DBAEC001FF42F /* comm.py */,
+				9111253B164DBAEC001FF42F /* config.py */,
+				9111253C164DBAEC001FF42F /* keyword.py */,
+				9111253D164DBAEC001FF42F /* parser.py */,
+				9111253E164DBAEC001FF42F /* play.py */,
+				9111253F164DBAEC001FF42F /* programs.py */,
+				91112540164DBAEC001FF42F /* series.py */,
+				91112541164DBAEC001FF42F /* utils.py */,
+				91112542164DBAEC001FF42F /* xbmcsettings.py */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		91112544164DBAEC001FF42F /* plugin.video.catchupoz */ = {
+			isa = PBXGroup;
+			children = (
+				91112545164DBAEC001FF42F /* .gitignore */,
+				91112546164DBAEC001FF42F /* addon.xml */,
+				91112547164DBAEC001FF42F /* changelog.txt */,
+				91112548164DBAEC001FF42F /* default.py */,
+				91112549164DBAEC001FF42F /* icon.png */,
+				9111254A164DBAEC001FF42F /* LICENSE.txt */,
+				9111254B164DBAEC001FF42F /* README.md */,
+				9111254C164DBAEC001FF42F /* resources */,
+			);
+			path = plugin.video.catchupoz;
+			sourceTree = "<group>";
+		};
+		9111254C164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9111254D164DBAEC001FF42F /* __init__.py */,
+				9111254E164DBAEC001FF42F /* __init__.pyc */,
+				9111254F164DBAEC001FF42F /* images */,
+				91112553164DBAEC001FF42F /* language */,
+				91112556164DBAEC001FF42F /* lib */,
+				91112565164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		9111254F164DBAEC001FF42F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91112550164DBAEC001FF42F /* eleven.png */,
+				91112551164DBAEC001FF42F /* one.png */,
+				91112552164DBAEC001FF42F /* ten.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		91112553164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				91112554164DBAEC001FF42F /* english */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		91112554164DBAEC001FF42F /* english */ = {
+			isa = PBXGroup;
+			children = (
+				91112555164DBAEC001FF42F /* strings.xml */,
+			);
+			path = english;
+			sourceTree = "<group>";
+		};
+		91112556164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				91112557164DBAEC001FF42F /* __init__.py */,
+				91112558164DBAEC001FF42F /* __init__.pyc */,
+				91112559164DBAEC001FF42F /* abcscrapper.py */,
+				9111255A164DBAEC001FF42F /* abcscrapper.pyc */,
+				9111255B164DBAEC001FF42F /* cache.py */,
+				9111255C164DBAEC001FF42F /* cache.pyc */,
+				9111255D164DBAEC001FF42F /* ninescrapper.py */,
+				9111255E164DBAEC001FF42F /* ninescrapper.pyc */,
+				9111255F164DBAEC001FF42F /* tenscrapper.py */,
+				91112560164DBAEC001FF42F /* tenscrapper.pyc */,
+				91112561164DBAEC001FF42F /* xbmcsettings.py */,
+				91112562164DBAEC001FF42F /* xbmcsettings.pyc */,
+				91112563164DBAEC001FF42F /* xbmcutils.py */,
+				91112564164DBAEC001FF42F /* xbmcutils.pyc */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		91112566164DBAEC001FF42F /* plugin.video.networkten */ = {
+			isa = PBXGroup;
+			children = (
+				91112567164DBAEC001FF42F /* .gitignore */,
+				91112568164DBAEC001FF42F /* addon.xml */,
+				91112569164DBAEC001FF42F /* changelog.txt */,
+				9111256A164DBAEC001FF42F /* default.py */,
+				9111256B164DBAEC001FF42F /* icon.png */,
+				9111256C164DBAEC001FF42F /* LICENSE.txt */,
+				9111256D164DBAEC001FF42F /* README.md */,
+				9111256E164DBAEC001FF42F /* resources */,
+			);
+			path = plugin.video.networkten;
+			sourceTree = "<group>";
+		};
+		9111256E164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9111256F164DBAEC001FF42F /* __init__.py */,
+				91112570164DBAEC001FF42F /* images */,
+				91112574164DBAEC001FF42F /* language */,
+				91112577164DBAEC001FF42F /* lib */,
+				9111257C164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		91112570164DBAEC001FF42F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91112571164DBAEC001FF42F /* eleven.png */,
+				91112572164DBAEC001FF42F /* one.png */,
+				91112573164DBAEC001FF42F /* ten.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		91112574164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				91112575164DBAEC001FF42F /* english */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		91112575164DBAEC001FF42F /* english */ = {
+			isa = PBXGroup;
+			children = (
+				91112576164DBAEC001FF42F /* strings.xml */,
+			);
+			path = english;
+			sourceTree = "<group>";
+		};
+		91112577164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				91112578164DBAEC001FF42F /* __init__.py */,
+				91112579164DBAEC001FF42F /* cache.py */,
+				9111257A164DBAEC001FF42F /* xbmcsettings.py */,
+				9111257B164DBAEC001FF42F /* xbmcutils.py */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9111257D164DBAEC001FF42F /* plugin.video.plus7 */ = {
+			isa = PBXGroup;
+			children = (
+				9111257E164DBAEC001FF42F /* .gitignore */,
+				9111257F164DBAEC001FF42F /* addon.xml */,
+				91112580164DBAEC001FF42F /* changelog.txt */,
+				91112581164DBAEC001FF42F /* default.py */,
+				91112582164DBAEC001FF42F /* fanart.png */,
+				91112583164DBAEC001FF42F /* icon.png */,
+				91112584164DBAEC001FF42F /* README.md */,
+				91112585164DBAEC001FF42F /* resources */,
+			);
+			path = plugin.video.plus7;
+			sourceTree = "<group>";
+		};
+		91112585164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				91112586164DBAEC001FF42F /* __init__.py */,
+				91112587164DBAEC001FF42F /* language */,
+				9111258A164DBAEC001FF42F /* lib */,
+				91112593164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		91112587164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				91112588164DBAEC001FF42F /* English */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		91112588164DBAEC001FF42F /* English */ = {
+			isa = PBXGroup;
+			children = (
+				91112589164DBAEC001FF42F /* strings.xml */,
+			);
+			path = English;
+			sourceTree = "<group>";
+		};
+		9111258A164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9111258B164DBAEC001FF42F /* __init__.py */,
+				9111258C164DBAEC001FF42F /* classes.py */,
+				9111258D164DBAEC001FF42F /* comm.py */,
+				9111258E164DBAEC001FF42F /* config.py */,
+				9111258F164DBAEC001FF42F /* play.py */,
+				91112590164DBAEC001FF42F /* programs.py */,
+				91112591164DBAEC001FF42F /* series.py */,
+				91112592164DBAEC001FF42F /* utils.py */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		91112594164DBAEC001FF42F /* script.openvpn */ = {
+			isa = PBXGroup;
+			children = (
+				91112595164DBAEC001FF42F /* .gitignore */,
+				91112596164DBAEC001FF42F /* addon.xml */,
+				91112597164DBAEC001FF42F /* changelog.txt */,
+				91112598164DBAEC001FF42F /* default.py */,
+				91112599164DBAEC001FF42F /* icon.png */,
+				9111259A164DBAEC001FF42F /* LICENSE.txt */,
+				9111259B164DBAEC001FF42F /* README.md */,
+				9111259C164DBAEC001FF42F /* resources */,
+			);
+			path = script.openvpn;
+			sourceTree = "<group>";
+		};
+		9111259C164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9111259D164DBAEC001FF42F /* __init__.py */,
+				9111259E164DBAEC001FF42F /* language */,
+				911125A1164DBAEC001FF42F /* lib */,
+				911125A5164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		9111259E164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				9111259F164DBAEC001FF42F /* english */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		9111259F164DBAEC001FF42F /* english */ = {
+			isa = PBXGroup;
+			children = (
+				911125A0164DBAEC001FF42F /* strings.xml */,
+			);
+			path = english;
+			sourceTree = "<group>";
+		};
+		911125A1164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				911125A2164DBAEC001FF42F /* __init__.py */,
+				911125A3164DBAEC001FF42F /* xbmcsettings.py */,
+				911125A4164DBAEC001FF42F /* xbmcutils.py */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		911125A6164DBAEC001FF42F /* script.similartracks */ = {
+			isa = PBXGroup;
+			children = (
+				911125A7164DBAEC001FF42F /* .gitignore */,
+				911125A8164DBAEC001FF42F /* addon.xml */,
+				911125A9164DBAEC001FF42F /* changelog.txt */,
+				911125AA164DBAEC001FF42F /* default.py */,
+				911125AB164DBAEC001FF42F /* icon.png */,
+				911125AC164DBAEC001FF42F /* LICENSE.txt */,
+				911125AD164DBAEC001FF42F /* README.md */,
+				911125AE164DBAEC001FF42F /* resources */,
+			);
+			path = script.similartracks;
+			sourceTree = "<group>";
+		};
+		911125AE164DBAEC001FF42F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				911125AF164DBAEC001FF42F /* __init__.py */,
+				911125B0164DBAEC001FF42F /* language */,
+				911125B3164DBAEC001FF42F /* lib */,
+				911125B6164DBAEC001FF42F /* settings.xml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		911125B0164DBAEC001FF42F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				911125B1164DBAEC001FF42F /* english */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		911125B1164DBAEC001FF42F /* english */ = {
+			isa = PBXGroup;
+			children = (
+				911125B2164DBAEC001FF42F /* strings.xml */,
+			);
+			path = english;
+			sourceTree = "<group>";
+		};
+		911125B3164DBAEC001FF42F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				911125B4164DBAEC001FF42F /* __init__.py */,
+				911125B5164DBAEC001FF42F /* xbmcsettings.py */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		911123D4164DB840001FF42F /* xbmc-addons */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = all;
+			buildConfigurationList = 911123D7164DB840001FF42F /* Build configuration list for PBXLegacyTarget "xbmc-addons" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/bsdmake;
+			buildWorkingDirectory = "/Users/brianhornsby/Development/xbmc-addons";
+			dependencies = (
+			);
+			name = "xbmc-addons";
+			passBuildSettingsInEnvironment = 1;
+			productName = "xbmc-addons";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		911123CF164DB840001FF42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Brian Hornsby";
+			};
+			buildConfigurationList = 911123D2164DB840001FF42F /* Build configuration list for PBXProject "xbmc-addons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 911123CD164DB840001FF42F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				911123D4164DB840001FF42F /* xbmc-addons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		911123D5164DB840001FF42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		911123D6164DB840001FF42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		911123D8164DB840001FF42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		911123D9164DB840001FF42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		911123D2164DB840001FF42F /* Build configuration list for PBXProject "xbmc-addons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911123D5164DB840001FF42F /* Debug */,
+				911123D6164DB840001FF42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911123D7164DB840001FF42F /* Build configuration list for PBXLegacyTarget "xbmc-addons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911123D8164DB840001FF42F /* Debug */,
+				911123D9164DB840001FF42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 911123CF164DB840001FF42F /* Project object */;
+}
