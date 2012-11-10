@@ -22,7 +22,7 @@ help:
 $(addons): $(bindir)
 	@echo "Building addon archive for $@"
 	@zip -qr $(bindir)/$@-$(version).zip $@ -x "$(exclude)"
-	@echo "Archive $@-$(version).zip created successfully"
+	@echo "Archive $@-$(version).zip created"
 
 $(bindir):
 	@mkdir -p $@
