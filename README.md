@@ -1,4 +1,4 @@
 xbmc-addons
 ===========
 
-XCode build scripts for XBMC addons
+Xcode build scripts for XBMC addons

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		911124CD164DBA49001FF42F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		911124CF164DBAEC001FF42F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		911124D0164DBAEC001FF42F /* addon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addon.xml; sourceTree = "<group>"; };
 		911124D1164DBAEC001FF42F /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
@@ -193,13 +192,16 @@
 		911125B4164DBAEC001FF42F /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
 		911125B5164DBAEC001FF42F /* xbmcsettings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = xbmcsettings.py; sourceTree = "<group>"; };
 		911125B6164DBAEC001FF42F /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		9195FB6F164DE6B4009C7DDE /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		91F8C334164DCFAB00DE89FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		911123CD164DB840001FF42F = {
 			isa = PBXGroup;
 			children = (
-				911124CD164DBA49001FF42F /* Makefile */,
+				9195FB6F164DE6B4009C7DDE /* Makefile */,
+				91F8C334164DCFAB00DE89FC /* README.md */,
 				911124CE164DBAEC001FF42F /* plugin.audio.tuneinradio */,
 				9111251E164DBAEC001FF42F /* plugin.video.abciview */,
 				91112544164DBAEC001FF42F /* plugin.video.catchupoz */,
@@ -781,7 +783,7 @@
 			buildConfigurationList = 911123D7164DB840001FF42F /* Build configuration list for PBXLegacyTarget "xbmc-addons" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/local/bin/bsdmake;
+			buildToolPath = /usr/bin/make;
 			buildWorkingDirectory = "/Users/brianhornsby/Development/xbmc-addons";
 			dependencies = (
 			);
