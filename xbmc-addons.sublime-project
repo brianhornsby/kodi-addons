@@ -1,0 +1,55 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"make",
+				"all"
+			],
+			"name": "Build All"
+		},
+		{
+			"cmd":
+			[
+				"make",
+				"clean"
+			],
+			"name": "Clean"
+		},
+		{
+			"cmd":
+			[
+				"make",
+				"clean",
+				"all"
+			],
+			"name": "Clean + Build All"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "plugin.video.abciview"
+		},
+		{
+			"path": "plugin.video.amazoninstantvideo"
+		},
+		{
+			
+			"path": "plugin.video.networkten"
+		},
+		{	
+			"path": "plugin.audio.tuneinradio"
+		},
+		{
+			"path": "plugin.video.plus7"
+		},
+		{
+			"path": "script.openvpn"
+		},
+		{
+			"path": "script.similartracks"
+		}
+	]
+}
