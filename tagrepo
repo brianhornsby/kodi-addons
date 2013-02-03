@@ -1,0 +1,54 @@
+#!/bin/bash
+
+basename=`basename $0`
+
+if [ $# != 1 ]
+then
+	printf '%s: no input repository\n' $basename
+	exit 1
+fi
+
+addon=$1
+
+if [ -z $addon ]
+then
+	printf '%s: %s: No such directory\n' $basename $addon
+	printf '%s: no input repository\n' $basename
+	exit 1
+fi
+
+if [ ! -d $addon ]
+then
+	printf '%s: %s: No such directory\n' $basename $addon
+	printf '%s: no input repository\n' $basename
+	exit 1
+fi
+
+if [ ! -f $addon/addon.xml ]
+then
+	printf '%s: %s: No such addon\n' $basename $addon
+	printf '%s: no input repository\n' $basename
+	exit 1
+fi
+
+name=`grep -w id $addon/addon.xml | cut -d\" -f4`
+version=`grep -w id $addon/addon.xml | cut -d\" -f6`
+message="'$name XBMC Addon Release $version'"
+
+cd $addon
+
+git tag -a $version -m "$message"
+if [ $? != 0 ]
+then
+	printf '%s: git tag of repository %s failed\n' $basename $addon
+	exit 1
+fi
+printf '%s: git tag of repository %s successful\n' $basename $addon
+
+git push --tags
+if [ $? != 0 ]
+then
+	printf '%s: git push tags of repository %s failed\n' $basename $addon
+	exit 1
+fi
+printf '%s: git push tags of repository %s successful\n' $basename $addon
