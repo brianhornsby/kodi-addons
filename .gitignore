@@ -1,3 +1,4 @@
-*/
-
-xbmc-addons.sublime-workspace
+.svn
+plugin.*
+script.*
+skin.*
