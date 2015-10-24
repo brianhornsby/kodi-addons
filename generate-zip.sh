@@ -19,7 +19,14 @@ fi
 
 VERSION=`grep -w id ${PARENTDIR}/${ADDON}/addon.xml | cut -d\" -f6`
 EXCLUDE="*.pyo *.pyc *.DS_Store* *.git/* *.gitignore *.svn/* *.lwp */sftp-config.json"
-ADDONZIP=${PARENTDIR}/bin/${ADDON}-${VERSION}.zip
+REPOSITORY=`find . -name "repository.*" | grep -v xml | xargs basename`
+ZIPDIR=${REPOSITORY}/releases
+ADDONZIP=${PARENTDIR}/${ZIPDIR}/${ADDON}-${VERSION}.zip
+if [ ! -d ${PARENTDIR}/${ZIPDIR} ]
+then
+	echo "${BASENAME}: ERROR: ${ZIPDIR} directory does not exist"
+	exit 1
+fi
 
 if [ -e ${ADDONZIP} ]
 then

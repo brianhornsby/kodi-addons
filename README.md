@@ -1,6 +1,6 @@
-# xbmc-addons
+# Kodi Addons Development Scripts
 
-This repository contains scripts that I call from the [SourceTree](http://www.sourcetreeapp.com/) Git client, using Custom Actions, to perform certain tasks related to my XBMC addons development.
+This repository contains scripts that I call from the [SourceTree](http://www.sourcetreeapp.com/) Git client, using Custom Actions, to perform certain tasks related to my Kodi addons development.
 
 ##### Important Notes
 
@@ -12,7 +12,7 @@ For these scripts to work properly the addon element in the addon.xml file must 
 
 Otherwise the scripts will not be able to get the addons version number.
 
-I use the [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model, so these scripts check that they are being run on the develop branch.
+I use the [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model, so these scripts check that they are being run on the correct branch (develop or master).
 
 ## update-version.sh
 
@@ -60,7 +60,7 @@ index a22b978..6ce0c4c 100644
 @@ -1,4 +1,19 @@
  *** 2.0.6 ***
 +Fixed issue with custom urls not playing. [0a07dbf]
-+Fixed issue with adding stations to xbmc favourites. [0261b33]
++Fixed issue with adding stations to kodi favourites. [0261b33]
 +
 +*** 2.0.5 ***
  Fixed issue with stream url being converted to lowercase. [0804367]
