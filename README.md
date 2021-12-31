@@ -1,3 +1,6 @@
+This repository has been set to archived (read-only) as I no longer use Kodi, so development of this plugin has stopped.
+==========
+
 # Kodi Addons Development Scripts
 
 This repository contains scripts that I call from the [SourceTree](http://www.sourcetreeapp.com/) Git client, using Custom Actions, to perform certain tasks related to my Kodi addons development.
